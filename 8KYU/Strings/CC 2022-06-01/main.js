@@ -1,0 +1,28 @@
+// You need to write a function that reverses the words in a given string. A word can also fit an empty string. If this is not clear enough, here are some examples:
+
+// As the input may have trailing spaces, you will also need to ignore unneccesary whitespace.
+
+// Example (Input --> Output)
+
+// "Hello World" --> "World Hello"
+// "Hi There." --> "There. Hi"
+// Happy coding!
+
+//PREP
+//Parameters: Recieve a String
+//Returns: Returns a reverse String
+//Examples: "Hello World" --> "World Hello"
+//          "Hi There." --> "There. Hi"
+//          'This is so easy' => 'easy so is This'
+
+//Pseudocode:
+//Take String
+//Turn String into array
+//Reverse array
+//Turn array back into String
+//Return String
+
+function reverse(string){
+    //your code here
+    return string.split(" ").reverse().join(" ");
+  };
